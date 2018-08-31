@@ -1,0 +1,249 @@
+
+body {
+	padding: 0;
+	font: 24px;
+	background-color: #ff8080;
+	margin: 0;
+
+}
+.container {
+	width: 98%;
+	margin: auto;
+	overflow: hidden;
+	height: auto;
+}
+.btn {
+	height: 30px;
+	background: grey;
+	width: auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #330000;
+	color: #ffffff;
+	padding: 10px;
+	width: 100%;
+}
+header a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+}
+header li {
+	float: left;
+	display: inline;
+	border-radius: 16px;
+	background: #ffe6e6;
+	padding: 8px;
+}
+header #branding {
+	float: left;
+	border-radius: 16px;
+	background: #ffe6e6;
+	padding: 8px;
+}
+header #branding h1 {
+	margin: 0;
+	color: #000000;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a {
+	color: #ff0000;
+}
+header a:hover {
+	color: #cccccc;
+}
+
+#showcase {
+	min-height: 600px;
+	background: url(../img/img4.png) no-repeat 0 -150px;
+	text-align: center;
+	color: #ffffff;
+	background-size: 100%;
+}
+#showcase h1 {
+	font-size: 55px;
+}
+#showcase h2 {
+	margin-bottom: 8px; 
+}
+#showcase h3 {
+	margin-top: 150px;
+}
+#boxes .box {
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 36px;
+}
+#boxes .box img {
+	width: 300px;
+	height: 300px;
+	border-radius: 36px;
+}
+article#aboutus {
+	width: 60%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #330000;
+	padding: 10px;
+	color: #ffffff;
+	border-radius: 16px;
+}
+aside#side {
+	width: 30%;
+	max-height: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	background: #330000;
+	padding: 10px;
+	color: #ffffff;
+	border-radius: 16px;
+}
+aside#side img {
+	width: 99%;
+	height: 30%;
+	border-radius: 16px;
+}
+aside#sideleft {
+	width: 60%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #330000;
+	padding: 10px;
+	float: left;
+	color: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+}
+article#aboutlower {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #330000;
+	padding: 10px;
+	float: left;
+	color: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+}
+footer {
+	padding: 10px;
+	background: #330000;
+	color: #00ff00;
+}
+footer p {
+	font-size: 10px;
+	text-align: center;
+}
+#menu {
+	min-height: 150px;
+	background: url(../img/img04.png) no-repeat 0 -150px;
+	text-align: center;
+	color: #ffffff;
+	background-size: 100%;
+}
+#menu h1 {
+	font-size: 35px;
+}
+#menu h2 {
+	margin-bottom: 8px;
+	font-size: 26px; 
+}
+form{
+	padding: 20px 0;
+	text-align: center;
+	margin: 36px;
+	background: #330000;
+	border-radius: 16px;
+	color: #ffffff;
+}
+	
+input{
+	display: block;
+	outline: 0;
+	width: 250px;
+	border-radius: 12px;
+	padding: 10px 15px;
+	margin: 45px auto 60px auto;
+	text-align: center;
+	font-size: 12px;
+	color: blue;
+	font-weight: 250;
+}
+#signUp .input input[type="email"]{}
+
+button{
+	outline: 0;
+	background-color: grey;
+	border: 0;
+	padding: 10px 15px;
+	border-radius: 12px;
+	width: 280px;
+	font-size: 12px;
+}
+article#userlogin {
+	width: 45%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #330000;
+	padding: 24px;
+	color: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+}
+article#adminlogin {
+	width: 45%;
+	max-height: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	background: #330000;
+	padding: 24px;
+	color: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+}
+.add {
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 30%;
+}
+.list {
+	float: right;
+	width: 65%;
+	margin: 0;
+	padding: 0;
+}
+table {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+		.item {
+			width: 38%;
+		}
+		.Id {
+			width: 20%;
+		}
+		.address {
+			width: 38%;
+		}
+table, th, td {
+    border: 1px solid black;
+    outline: 0;	
+	border-radius: 12px;
+}
